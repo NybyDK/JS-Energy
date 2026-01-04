@@ -21,6 +21,9 @@ Then:\
 
 Hopefully Windows line endings don't screw you over
 
+[benchmark.sh](benchmark.sh) needs to be edited if you change versions/engines, but it is intuitive in there\
+If you want to run this while disconnected from SSH, I recommend [tmux](https://github.com/tmux/tmux/wiki), start session, start script, deattach from session and you can come back and reattach any time
+
 # Analysis
 The analysis scripts are provided as-is with no promises\
 They currently assume the input file is in the analysis/ folder and is named 1000-runs. Just change it if needed\
