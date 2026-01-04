@@ -1,6 +1,10 @@
 # JS Energy
 Benchmarking various JavaScript engines' energy consumption
 
+# Just here for data?
+[analysis/1000-runs.csv](analysis/1000-runs.csv)\
+Reminder that entries with runs [1..10] are repeated 10 times
+
 # Prerequisites
 - Linux system with RAPL
 - Installed JavaScript engines (I recommend [JSVU](https://github.com/GoogleChromeLabs/jsvu))
